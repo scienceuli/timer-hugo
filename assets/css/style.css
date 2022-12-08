@@ -1,6 +1,100 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Glegoo);
+*/
+
+/* roboto-100 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local(''),
+       url('/fonts/roboto-v30-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/roboto-v30-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('/fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/roboto-v30-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('/fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('/fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-condensed-300 - latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('/fonts/roboto-condensed-v25-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/roboto-condensed-v25-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-condensed-regular - latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/roboto-condensed-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/roboto-condensed-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-condensed-700 - latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('/fonts/roboto-condensed-v25-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/roboto-condensed-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* glegoo-regular - latin */
+@font-face {
+  font-family: 'Glegoo';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/glegoo-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/glegoo-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* glegoo-700 - latin */
+@font-face {
+  font-family: 'Glegoo';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('/fonts/glegoo-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/glegoo-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -1325,37 +1419,4 @@ ul.social-icons li {
   text-decoration: none;
 }
 
-/* blog */
-.pagination {
-  justify-content: center;
-  padding: 30px 0;
-  margin-bottom: 0;
-}
-
-.pagination .page-item .page-link {
-  display: inline-block;
-  width: 42px;
-  height: 42px;
-  border-radius: 0;
-  border: 1px solid #dedede;
-  text-align: center;
-  margin: 0 4px;
-  font-weight: 500;
-  color: #02bdd5;
-  padding: 0;
-  line-height: 41px;
-  box-shadow: 0 5px 25px rgba(#000, .05);
-}
-
-.pagination .page-item.active .page-link {
-  background: #02bdd5;
-  color: #fff;
-  border-color: #02bdd5;
-}
-
-.pagination .page-item .page-link:focus,
-.pagination .page-item .page-link:hover {
-  box-shadow: none;
-  background: #02bdd5;
-  color: #fff;
-}
+/*# sourceMappingURL=maps/style.css.map */
